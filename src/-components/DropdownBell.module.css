@@ -1,0 +1,75 @@
+:root{
+    --c1: #27272B;
+    --c2: #1B1B1E;
+    --c3: #F1F2F6;
+    --c4: #303036;
+    --c5: #DADCE7;
+    --c6: #BEBEC5;
+}
+
+.infHr{
+    color: var(--c4);
+    width: 95%;
+    margin: 0px 0px 5px 8px;
+}
+
+.container{
+    height: 100px;
+    width: fit-content;
+    background-color: red;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+.DropdownBell{
+    height: 425px;
+    width: 310px;
+    background-color: var(--c3);
+    margin: 10px 10px 0px 0px;
+    border-radius: 12px;
+    position: absolute;
+    top: 0%;
+    right: 0;
+    z-index: 9999;
+
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(29,29,32,.3);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(29,29,32,.3);
+    box-shadow: 0px 0px 12px 0px rgba(29,29,32,.3);
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: fit-content;
+}
+
+.bellIcon{
+    font-size: 25px;
+    margin: 0px 15px;
+}
+
+.bellText{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nnWarn{
+    font-size: 14px;
+    margin: 0px 0px 0px 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--c6);
+}
+
+.nnIcon{
+    font-size: 60px;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: var(--c6);
+}

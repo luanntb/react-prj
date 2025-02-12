@@ -1,0 +1,170 @@
+:root{
+    --c1: #27272B;
+    --c2: #1B1B1E;
+    --c3: #F1F2F6;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: var(--c2);
+}
+
+.LeftComponents{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0px 0px 0px 30px;
+}
+
+.imgLogo{
+    height: 30px;
+    width: auto;
+    color: var(--c3);
+}
+
+.nameLogo{
+    color: var(--c3);
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.globalMiddle{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.MiddleComponents{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 450px;
+    border-radius: 100px;
+    background-color: var(--c3);
+    border: 3px solid var(--c3)
+}
+
+.MiddleComponents:hover{
+    cursor: text;
+}
+
+.searchInput{
+    outline: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 100px 100px 0px;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.searchInput::placeholder{
+    color: var(--c1)
+}
+
+.searchInput::-webkit-search-cancel-button{
+    display: none;
+}
+
+.searchIcon{
+    height: 100%;
+    width: 55px;
+    color: var(--c3);
+    font-size: 20px;
+    margin: 0px 10px 0px 4px;
+    color: var(--c2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid var(--c2);
+}
+
+.searchIcon:hover{
+    cursor: pointer;
+}
+
+.voiceIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: var(--c3);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin: 0px 0px 0px 10px;
+}
+
+.voiceIcon:hover{
+    cursor: pointer;
+}
+
+.RightComponents{
+    display: flex;
+    align-items: center;
+    margin: 0px 30px 0px 0px;
+    position: relative;
+}
+
+.profileButton{
+    height: 55px;
+    width: 55px;
+    font-size: 25px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c3);
+    border: 2px solid transparent;
+    transition: border 0.3s ease-in-out;
+}
+
+.profileButton:hover{
+    cursor: pointer;
+    border: 2px solid var(--c3);
+}
+
+.bellButton{
+    height: 55px;
+    width: 55px;
+    font-size: 25px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px 0px 15px;
+    color: var(--c3);
+    border: 2px solid transparent;
+    transition: border 0.3s ease-in-out;
+}
+
+.bellButton:hover{
+    cursor: pointer;
+    border: 2px solid var(--c3);
+}
+
+.uploadButton{
+    height: 40px;
+    width: 150px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    background: var(--c3);
+    color: var(--c2);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.uploadButton:hover{
+    background-color: var(--c2);
+    color: var(--c3);
+    border: 2px solid var(--c3);
+    cursor: pointer;
+}

@@ -1,0 +1,409 @@
+:root{
+    --c1: #27272B;
+    --c2: #1B1B1E;
+    --c3: #F1F2F6;
+    --c4: #303036;
+    --c5: #DADCE7;
+}
+
+.hr{
+    width: 85%;
+    margin: 13px auto;
+}
+
+.container{
+    height: 100vh;
+    width: 60px;
+    background-color: var(--c2);
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.container:hover{
+    width: 200px;
+}
+
+.home{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 0px 5px 5px 5px;
+}
+
+.home:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.homeIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 18px 0px 12px
+}
+
+.homeText{
+    color: var(--c3);
+}
+
+.liked{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.liked:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.likedIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 18px 0px 12px
+}
+
+.likedText{
+    color: var(--c3);
+}
+
+.playlist{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.playlist:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.plIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 18px 0px 12px
+}
+
+.plText{
+    color: var(--c3);
+}
+
+.wLater{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.wLater:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.wlIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 21px 0px 15px
+}
+
+.wlText{
+    color: var(--c3);
+}
+
+.myprofile{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.myprofile:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.mpIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 20px 0px 14px
+}
+
+.mpText{
+    color: var(--c3);
+}
+
+.myposts{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.myposts:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.mpostsIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 17px 0px 11px
+}
+
+.mpostsText{
+    color: var(--c3);
+}
+
+.mycoments{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.mycoments:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.mcIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 20px 0px 12px
+}
+
+.mcText{
+    color: var(--c3);
+}
+
+.mydownloads{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.mydownloads:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.mdIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 20px 0px 12px
+}
+
+.mdText{
+    color: var(--c3);
+}
+
+.trending{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.trending:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.trIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 20px 0px 12px
+}
+
+.trText{
+    color: var(--c3);
+}
+
+.games{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.games:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.gIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 16px 0px 8px
+}
+
+.gText{
+    color: var(--c3);
+}
+
+.movies{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.movies:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.mvIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 17px 0px 12px
+}
+
+.mvText{
+    color: var(--c3);
+}
+
+.live{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.live:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.lIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 16px 0px 10px
+}
+
+.lText{
+    color: var(--c3);
+}
+
+.music{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.music:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.msIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 19px 0px 10px
+}
+
+.msText{
+    color: var(--c3);
+}
+
+.news{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.news:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.nwIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 19px 0px 10px
+}
+
+.nwText{
+    color: var(--c3);
+}
+
+.sports{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.sports:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.spIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 18px 0px 11px
+}
+
+.spText{
+    color: var(--c3);
+}
+
+.learning{
+    display: flex;
+    align-items: center ;
+    height: 44px;
+    width: 190px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.learning:hover{
+    background-color: var(--c4);
+    cursor: pointer;
+}
+
+.lrIcon{
+    color: var(--c3);
+    font-size: 25px;
+    margin: 0px 15px 0px 8px
+}
+
+.lrText{
+    color: var(--c3);
+}
+
