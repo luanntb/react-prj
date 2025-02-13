@@ -29,6 +29,10 @@
     border-radius: 12px;
 }
 
+.thumbnail:hover{
+    cursor: pointer;
+}
+
 .pic{
     height: 50px;
     width: 50px;
